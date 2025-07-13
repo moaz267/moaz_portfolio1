@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "name": "Ahmed Hassan",
+    "name": "Moaz Elhenawy ",
     "title": "Front-End Developer",
     "subtitle": "I create beautiful and functional web experiences with modern technologies",
     "description": "I'm a passionate Front-End Developer with solid experience in building modern and responsive web applications using React.js. I have strong knowledge of HTML5, CSS3/SCSS, and JavaScript (ES6+), along with hands-on experience in React Router for efficient client-side routing. I'm comfortable working with Bootstrap for styling, and I use Axios and the native Fetch API for data fetching and integration. My workflow is supported by version control tools like Git & GitHub, and I rely on Visual Studio Code (VS Code) as my main development environment. I also focus on delivering multilingual user experiences by integrating internationalization (i18n) using libraries like react-i18next. For deployment, I use Vercel to host and manage production-ready applications seamlessly.",
@@ -19,11 +19,20 @@
   "about": {
     "title": "About Me",
     "subtitle": "Passionate Front-End Developer",
-    "description": "I'm a dedicated front-end developer with 3+ years of experience creating stunning web applications. I specialize in React.js, modern CSS frameworks, and user experience design.",
+    "description": "I'm a passionate Front-End Developer with solid experience in building modern and responsive web applications using React.js. I have strong knowledge of HTML5, CSS3/SCSS, and JavaScript (ES6+), along with hands-on experience in React Router for efficient client-side routing. I'm comfortable working with Bootstrap for styling, and I use Axios and the native Fetch API for data fetching and integration. My workflow is supported by version control tools like Git & GitHub, and I rely on Visual Studio Code (VS Code) as my main development environment. I also focus on delivering multilingual user experiences by integrating internationalization (i18n) using libraries like react-i18next. For deployment, I use Vercel to host and manage production-ready applications seamlessly.",
     "skills": "Skills & Technologies",
     "experience": "Years of Experience",
     "projects": "Completed Projects",
-    "clients": "Happy Clients"
+    "clients": "Happy Clients",
+    "Performance": "Performance",
+    "Multilingual Experience": "Multilingual Experience",
+    "Responsive Design": "Responsive Design",
+    "clean code ": "Clean Code",
+    "md": "I provide multilingual user experiences using internationalization (i18n) libraries",
+    "ps": "I optimize applications for speed and performance using modern development practices",
+    "rc": "I focus on creating responsive user interfaces that work seamlessly across all devices",
+    "cc": "I write clean, maintainable code with a focus on best practices",
+    "valuesTitle": "What I Value "
   },
   "services": {
     "title": "My Services",

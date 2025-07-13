@@ -1,14 +1,13 @@
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Code, Palette, Zap, Heart, Globe, Database, GitBranch, Monitor } from 'lucide-react';
+import { Code, Palette, Zap, Heart, Globe } from 'lucide-react';
 
 const About: React.FC = () => {
   const { t } = useTranslation();
 
   const skills = [
-    { name: 'React.js', level: 90 },
+    { name: 'React.js', level: 80 },
     { name: 'JavaScript (ES6+)', level: 88 },
     { name: 'HTML5 & CSS3/SCSS', level: 92 },
     { name: 'React Router', level: 85 },
@@ -22,23 +21,23 @@ const About: React.FC = () => {
   const values = [
     {
       icon: Code,
-      title: 'Clean Code',
-      description: 'I write maintainable, scalable, and efficient code that follows best practices.'
+      title: t('about.clean code '),
+      description: t('about.cc')
     },
     {
       icon: Palette,
-      title: 'Responsive Design',
-      description: 'I create modern and responsive web applications that work seamlessly across all devices.'
+      title: t('about.Responsive Design'),
+      description: t('about.rc')
     },
     {
       icon: Globe,
-      title: 'Multilingual Experience',
-      description: 'I deliver multilingual user experiences using internationalization (i18n) libraries.'
+      title: t('about.Multilingual Experience'),
+      description: t('about.md')
     },
     {
       icon: Zap,
-      title: 'Performance',
-      description: 'I optimize applications for speed and performance using modern development practices.'
+      title: t('about.Performance'),
+      description: t('about.ps')
     }
   ];
 
@@ -80,7 +79,7 @@ const About: React.FC = () => {
                 {/* Floating Elements */}
                 <motion.div
                   animate={{ rotate: 360 }}
-                  transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                  transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
                   className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center"
                 >
                   <Code className="w-8 h-8 text-white" />
@@ -104,13 +103,7 @@ const About: React.FC = () => {
             >
               <div className="prose prose-lg dark:prose-invert">
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  I'm a passionate Front-End Developer with solid experience in building modern and responsive web applications using React.js. I have strong knowledge of HTML5, CSS3/SCSS, and JavaScript (ES6+), along with hands-on experience in React Router for efficient client-side routing.
-                </p>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  I'm comfortable working with Bootstrap for styling, and I use Axios and the native Fetch API for data fetching and integration. My workflow is supported by version control tools like Git & GitHub, and I rely on Visual Studio Code (VS Code) as my main development environment.
-                </p>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  I also focus on delivering multilingual user experiences by integrating internationalization (i18n) using libraries like react-i18next. For deployment, I use Vercel to host and manage production-ready applications seamlessly.
+                  {t('about.description')}
                 </p>
               </div>
 
@@ -189,7 +182,7 @@ const About: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              What I Value
+              {t('about.valuesTitle') || 'What I Value'}
             </h2>
           </motion.div>
 

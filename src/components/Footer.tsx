@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Ahmed Hassan
+              Moaz Elhenawy 
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
               Front-End Developer passionate about creating beautiful web experiences.
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              © 2024 Ahmed Hassan. {t('footer.rights')}.
+              © 2024 Moaz Elhenawy . {t('footer.rights')}.
             </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm flex items-center mt-2 md:mt-0">
               {t('footer.madeWith')} <Heart className="w-4 h-4 text-red-500 mx-1" /> {t('footer.in')}
