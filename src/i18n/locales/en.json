@@ -1,0 +1,95 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services", 
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ahmed Hassan",
+    "title": "Front-End Developer",
+    "subtitle": "I create beautiful and functional web experiences with modern technologies",
+    "description": "I'm a passionate Front-End Developer with solid experience in building modern and responsive web applications using React.js. I have strong knowledge of HTML5, CSS3/SCSS, and JavaScript (ES6+), along with hands-on experience in React Router for efficient client-side routing. I'm comfortable working with Bootstrap for styling, and I use Axios and the native Fetch API for data fetching and integration. My workflow is supported by version control tools like Git & GitHub, and I rely on Visual Studio Code (VS Code) as my main development environment. I also focus on delivering multilingual user experiences by integrating internationalization (i18n) using libraries like react-i18next. For deployment, I use Vercel to host and manage production-ready applications seamlessly.",
+    "cta": "View My Work",
+    "contact": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate Front-End Developer",
+    "description": "I'm a dedicated front-end developer with 3+ years of experience creating stunning web applications. I specialize in React.js, modern CSS frameworks, and user experience design.",
+    "skills": "Skills & Technologies",
+    "experience": "Years of Experience",
+    "projects": "Completed Projects",
+    "clients": "Happy Clients"
+  },
+  "services": {
+    "title": "My Services",
+    "subtitle": "What I Offer",
+    "reactDev": {
+      "title": "React.js Development",
+      "description": "Building modern single-page applications with React.js, React Router, and state management"
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Creating mobile-first, responsive websites that work perfectly on all devices"
+    },
+    "apiIntegration": {
+      "title": "API Integration",
+      "description": "Integrating APIs using Axios and Fetch for seamless data communication"
+    },
+    "multilingual": {
+      "title": "Multilingual Support",
+      "description": "Implementing internationalization (i18n) for multi-language web applications"
+    }
+  },
+  "portfolio": {
+    "title": "My Portfolio",
+    "subtitle": "Recent Projects",
+    "viewProject": "View Project",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "allProjects": "All Projects"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Work Together",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "info": {
+      "email": "ahmed@example.com",
+      "phone": "+20 123 456 7890",
+      "location": "Cairo, Egypt"
+    },
+    "availability": {
+      "title": "Available for new projects",
+      "subtitle": "Response time: Usually within 24 hours"
+    },
+    "directContact": "Or contact me directly",
+    "conversation": "Let's Start a Conversation",
+    "conversationDesc": "I'm always excited to work on new projects and collaborate with amazing people. Whether you have a project in mind or just want to chat about technology, feel free to reach out!",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What's your typical project timeline?",
+      "a1": "Project timelines vary depending on complexity, but most websites take 2-4 weeks, while web applications can take 4-8 weeks. I'll provide a detailed timeline during our initial consultation.",
+      "q2": "Do you provide ongoing support?",
+      "a2": "Yes! I offer maintenance packages and ongoing support for all projects. This includes bug fixes, updates, and feature enhancements as needed.",
+      "q3": "What technologies do you work with?",
+      "a3": "I specialize in React.js, TypeScript, Next.js, Tailwind CSS, and modern web technologies. I can also work with various CMS platforms and backend integrations.",
+      "q4": "How do you handle project communication?",
+      "a4": "I believe in transparent communication. I provide regular updates, use project management tools, and am available for calls or meetings as needed throughout the project."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with",
+    "in": "in Egypt"
+  }
+}
